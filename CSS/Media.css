@@ -29,3 +29,9 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+@media screen and (min-width:600px){
+    body{
+        background-color: lightblue;
+    }
+}
