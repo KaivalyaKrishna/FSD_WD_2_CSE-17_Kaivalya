@@ -1,16 +1,22 @@
 <?xml version = "1.0"?>
 
 <!DOCTYPE Students [
-<!ELEMENT Student (Name, Roll_Number, Branch)>
-<!ELEMENT Name (#PCDATA)>
-<!ELEMENT Roll_Number (#PCDATA)>
-<!ELEMENT Branch (#PCDATA)>
+    <!ELEMENT Student (Name, Roll_Number, Branch)>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT Roll_Number (#PCDATA)>
+    <!ELEMENT Branch (#PCDATA)>
 ]>
 
 <Student>
+    <Name>
+        Kaivalya Krishna 
+    </Name>
 
+    <Roll_Number>
+        2400320100553
+    </Roll_Number>
 
-
-
+    <Branch>
+        Computer Scienece and Engineering
+    </Branch>
 </Student>
-<Name> 
