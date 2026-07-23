@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Practical</title>
+</head>
+
+<body>
+
+    <center>
+        <h1>HTML Practical</h1>
+    </center>
+
+    <hr>
+
+    <h2>1. Images</h2>
+
+    <h3>Image from Local Device</h3>
+    <img src="./20260420_122127520_iOS.jpg"
+         alt="TAM Reviews"
+         width="400"
+         height="300">
+
+    <br><br>
+
+    <h3>Image from Web</h3>
+    <img src="https://tse2.mm.bing.net/th/id/OIP.CXIwfFZ1Po9RQ9hlt8zRFgHaHa?r=0&pid=Api&P=0&h=180"
+         alt="Astronaut"
+         width="300"
+         height="300">
+
+    <hr>
+
+    <h2>2. Student Details Table</h2>
+
+    <table border="2" cellpadding="10" cellspacing="0">
+
+        <caption><b>Student Details</b></caption>
+
+        <thead>
+            <tr>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>Branch</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>101</td>
+                <td>Rahul</td>
+                <td>CSE</td>
+                <td>90</td>
+            </tr>
+
+            <tr>
+                <td>102</td>
+                <td>Priya</td>
+                <td>IT</td>
+                <td>85</td>
+            </tr>
+
+            <tr>
+                <td colspan="3">Total Students</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">103</td>
+                <td>Aman</td>
+                <td>CSE</td>
+                <td>88</td>
+            </tr>
+
+            <tr>
+                <td>Extra Subject</td>
+                <td>AI</td>
+                <td>92</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4"><center>End of Table</center></td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <hr>
+
+    <h2>3. Lists</h2>
+
+    <h3>Ordered List</h3>
+
+    <ol type="A">
+        <li>Java</li>
+        <li>Python</li>
+        <li>C++</li>
+    </ol>
+
+    <h3>Unordered List</h3>
+
+    <ul type="square">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h3>Description List</h3>
+
+    <dl>
+        <dt><b>HTML</b></dt>
+        <dd>HyperText Markup Language</dd>
+
+        <dt><b>CSS</b></dt>
+        <dd>Cascading Style Sheets</dd>
+
+        <dt><b>Java</b></dt>
+        <dd>Programming Language</dd>
+    </dl>
+
+    <h3>Nested List</h3>
+
+    <ul>
+
+        <li>Programming Languages
+            <ol>
+                <li>C</li>
+                <li>C++</li>
+                <li>Java</li>
+            </ol>
+        </li>
+
+        <li>Web Technologies
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </li>
+
+    </ul>
+
+    <hr>
+
+    <h2>4. Student Domain Preference Form</h2>
+
+    <form>
+
+        <label>Student Name:</label><br>
+        <input type="text" placeholder="Enter your name"><br><br>
+
+        <label>Roll Number:</label><br>
+        <input type="number"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email"><br><br>
+
+        <label>Branch:</label><br>
+        <select>
+            <option>CSE</option>
+            <option>IT</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>Mechanical</option>
+        </select>
+
+        <br><br>
+
+        <label>Year:</label><br>
+
+        <input type="radio" name="year"> First Year
+        <input type="radio" name="year"> Second Year
+        <input type="radio" name="year"> Third Year
+        <input type="radio" name="year"> Fourth Year
+
+        <br><br>
+
+        <label>Preferred Domains:</label><br>
+
+        <input type="checkbox"> Web Development<br>
+        <input type="checkbox"> App Development<br>
+        <input type="checkbox"> Artificial Intelligence<br>
+        <input type="checkbox"> Machine Learning<br>
+        <input type="checkbox"> Data Science<br>
+        <input type="checkbox"> Cyber Security<br>
+        <input type="checkbox"> Cloud Computing<br>
+        <input type="checkbox"> UI/UX Design<br>
+
+        <br>
+
+        <label>Experience Level:</label><br>
+
+        <select>
+            <option>Beginner</option>
+            <option>Intermediate</option>
+            <option>Advanced</option>
+        </select>
+
+        <br><br>
+
+        <label>Why do you prefer this domain?</label><br>
+
+        <textarea rows="5" cols="40"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+        <input type="reset" value="Reset">
+
+    </form>
+
+    <hr>
+
+
+</body>
+</html>

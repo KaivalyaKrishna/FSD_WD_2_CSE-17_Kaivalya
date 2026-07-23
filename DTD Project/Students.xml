@@ -1,0 +1,16 @@
+<?xml version = "1.0"?>
+
+<!DOCTYPE Students [
+<!ELEMENT Student (Name, Roll_Number, Branch)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Roll_Number (#PCDATA)>
+<!ELEMENT Branch (#PCDATA)>
+]>
+
+<Student>
+
+
+
+
+</Student>
+<Name> 
